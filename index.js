@@ -37,7 +37,7 @@ app.post("/api/message", (req, res) => {
   const message = req.body.message;
 
   // Discord BOTでメッセージを送信する
-  client.channels.cache.get("YOUR_DISCORD_CHANNEL_ID").send(message);
+  client.channels.cache.get(DISCORD_TOKEN ).send(message);
 
   // メッセージをレスポンスとして返す
   res.json({ message: message });
