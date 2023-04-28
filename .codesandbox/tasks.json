@@ -1,0 +1,53 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "npm init": {
+      "name": "npm init",
+      "command": "npm init",
+      "runAtStart": true
+    },
+    "npm i express": {
+      "name": "npm i express",
+      "command": "npm i express"
+    },
+    "npm start": {
+      "name": "npm start",
+      "command": "npm start"
+    },
+    "npm i discord.js": {
+      "name": "npm i discord.js",
+      "command": "npm i discord.js"
+    },
+    "npm stat": {
+      "name": "npm stat",
+      "command": "npm stat"
+    },
+    "npm i errorhandler": {
+      "name": "npm i errorhandler",
+      "command": "npm i errorhandler"
+    },
+    "git log": {
+      "name": "git log",
+      "command": "git log"
+    },
+    "git merge draft/silly-darkness main": {
+      "name": "git merge draft/silly-darkness main",
+      "command": "git merge draft/silly-darkness main"
+    },
+    "git status": {
+      "name": "git status",
+      "command": "git status"
+    },
+    "git checkout main": {
+      "name": "git checkout main",
+      "command": "git checkout main"
+    },
+    "git merge draft/silly-darkness": {
+      "name": "git merge draft/silly-darkness",
+      "command": "git merge draft/silly-darkness"
+    }
+  }
+}
