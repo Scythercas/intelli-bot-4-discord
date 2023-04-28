@@ -31,18 +31,6 @@ app.use((req, res, next) => {
   next(error);
 });
 
-// POSTリクエストを受け取った時の処理を記述する
-app.post("/api/message", (req, res) => {
-  // リクエストからメッセージを取得する
-  const message = req.body.message;
-
-  // Discord BOTでメッセージを送信する
-  client.channels.cache.get(DISCORD_TOKEN ).send(message);
-
-  // メッセージをレスポンスとして返す
-  res.json({ message: message });
-});
-
 // Discord BOTが起動した時の処理を記述する
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -65,6 +53,18 @@ client.on("message", (msg) => {
   fetch("http://localhost:3000/api/message", options)
     .then((res) => res.json())
     .then((json) => console.log(json));
+});
+
+// POSTリクエストを受け取った時の処理を記述する
+app.post("/api/message", (req, res) => {
+  // リクエストからメッセージを取得する
+  const message = req.body.message;
+
+  // Discord BOTでメッセージを送信する
+  client.channels.cache.get(DISCORD_TOKEN).send(message);
+
+  // メッセージをレスポンスとして返す
+  res.json({ message: message });
 });
 
 // Discord BOTにログインする
