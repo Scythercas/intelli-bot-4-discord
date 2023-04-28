@@ -36,6 +36,10 @@
     "git merge draft/silly-darkness main": {
       "name": "git merge draft/silly-darkness main",
       "command": "git merge draft/silly-darkness main"
+    },
+    "git status": {
+      "name": "git status",
+      "command": "git status"
     }
   }
 }
