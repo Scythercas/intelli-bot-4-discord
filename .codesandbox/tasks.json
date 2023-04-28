@@ -48,6 +48,10 @@
     "git merge draft/silly-darkness": {
       "name": "git merge draft/silly-darkness",
       "command": "git merge draft/silly-darkness"
+    },
+    "git config --global user.email \"garyo20020124@gmail.com\"": {
+      "name": "git config --global user.email \"garyo20020124@gmail.com\"",
+      "command": "git config --global user.email \"garyo20020124@gmail.com\""
     }
   }
 }
