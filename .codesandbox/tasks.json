@@ -28,6 +28,22 @@
     "npm i errorhandler": {
       "name": "npm i errorhandler",
       "command": "npm i errorhandler"
+    },
+    "git log": {
+      "name": "git log",
+      "command": "git log"
+    },
+    "git merge draft/silly-darkness main": {
+      "name": "git merge draft/silly-darkness main",
+      "command": "git merge draft/silly-darkness main"
+    },
+    "git status": {
+      "name": "git status",
+      "command": "git status"
+    },
+    "git checkout main": {
+      "name": "git checkout main",
+      "command": "git checkout main"
     }
   }
 }
