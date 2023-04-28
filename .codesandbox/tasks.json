@@ -40,6 +40,10 @@
     "git status": {
       "name": "git status",
       "command": "git status"
+    },
+    "git checkout main": {
+      "name": "git checkout main",
+      "command": "git checkout main"
     }
   }
 }
