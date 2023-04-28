@@ -52,6 +52,18 @@
     "git config --global user.email \"garyo20020124@gmail.com\"": {
       "name": "git config --global user.email \"garyo20020124@gmail.com\"",
       "command": "git config --global user.email \"garyo20020124@gmail.com\""
+    },
+    "git branch": {
+      "name": "git branch",
+      "command": "git branch"
+    },
+    "git log --oneline --graph --all": {
+      "name": "git log --oneline --graph --all",
+      "command": "git log --oneline --graph --all"
+    },
+    "git checkout draft/silly-darkness": {
+      "name": "git checkout draft/silly-darkness",
+      "command": "git checkout draft/silly-darkness"
     }
   }
 }
